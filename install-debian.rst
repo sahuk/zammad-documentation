@@ -24,7 +24,7 @@ Set locale
 
  sudo apt-get install apt-transport-https locales sudo wget
  sudo locale-gen en_US.UTF-8
- sudo echo "LANG=en_US.UTF-8" > /etc/default/locale
+ echo "LANG=en_US.UTF-8" | sudo tee /etc/default/locale
 
 
 Add Zammad DEB repo and install
